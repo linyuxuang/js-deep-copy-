@@ -4,12 +4,12 @@ js 对象的深拷贝
 
 
 
-   var obj={
-    	name:"1111",
-    	age:123,
-    	sex:200,
-    	arrTest:["233","3333",[90,9]]
-    }
+      var obj={
+         name:"1111",
+         age:123,
+         sex:200,
+         arrTest:["233","3333",[90,9]]
+       }
     
       var obj1={} 
     
