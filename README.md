@@ -21,9 +21,9 @@ js 对象的深拷贝
        	     if(origin.hasOwnProperty(key)){
        	 	   if(origin[key]!==null&& typeof(origin[key])=="object"){
        	 	      if(toStr.call(origin[key])==arrStr){
-       	 			  target[key]=[];
-       	 			 }else{
-       	 			  target[key]={};
+       	 		    target[key]=[];
+       	 		    }else{
+       	 		     target[key]={};
        	 		    }
        	 	        deepClone(origin[key],target[key])	
              	     	}else{
